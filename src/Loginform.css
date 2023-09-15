@@ -1,0 +1,13 @@
+.form-group {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 10px;
+}
+
+.form-group > label {
+  margin-right: 200%;
+  width: 60%;
+}

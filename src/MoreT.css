@@ -1,0 +1,20 @@
+.MoreInt {
+}
+
+.Moreint {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  padding: 12px;
+  padding-left: 7px;
+  color: black;
+}
+
+.Moreint {
+  cursor: pointer;
+}
+
+.Moreicons {
+  margin-right: 20px;
+  color: #2874f0;
+}

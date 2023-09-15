@@ -1,0 +1,103 @@
+.header {
+  background-color: #2874f0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 6px;
+  padding-right: 100px;
+}
+
+.header__first > img {
+  width: 75px;
+  object-fit: contain;
+}
+
+.header__first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 120px;
+}
+
+.header__second {
+  background-color: white;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.header__second > input {
+  border: none;
+  outline: none;
+  width: 36vw;
+  padding: 10px 5px;
+  border-radius: 2px;
+}
+
+.header__second > span {
+  color: blue;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.header__third > button {
+  border: none;
+  outline: none;
+  width: 10vw;
+  color: #2874f0;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.header__fourth {
+}
+
+.header__fourth > span {
+  color: white;
+  font-weight: 600;
+}
+.header__fifth {
+  display: flex;
+  align-items: center;
+}
+
+.header__fifth > #more {
+  color: white;
+  font-weight: 600;
+}
+.header__fifth > #more > #downarrow {
+  color: white;
+  font-size: 10px;
+  margin-top: 5px;
+}
+.header__sixth {
+  display: flex;
+  align-items: center;
+}
+
+.header__sixth > #carttext {
+  color: white;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.header__sixth > #carticon {
+  color: white;
+}
+
+#Becomeseller,
+#more,
+#carttext,
+#cartimg,
+#carticon,
+.header__first:hover {
+  cursor: pointer;
+}
+
+#explore:hover {
+  text-decoration: underline;
+}

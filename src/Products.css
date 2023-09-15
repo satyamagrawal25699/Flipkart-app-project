@@ -1,0 +1,13 @@
+.data-img {
+  padding: 10%;
+  margin: 10%;
+}
+
+.nav-link {
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+}

@@ -1,0 +1,22 @@
+.cateGoriesclass {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  text-align: center;
+}
+
+.categorysubclass {
+  margin-left: 60px;
+  margin-bottom: 50px;
+}
+
+#categorytext:hover {
+  color: #2874f0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#categoryimg:hover {
+  cursor: pointer;
+}

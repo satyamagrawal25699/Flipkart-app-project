@@ -1,0 +1,23 @@
+.endfooterclass {
+  background-color: black;
+  display: flex;
+  padding: 30px;
+}
+
+.endFooterclass1 {
+  color: white;
+  font-size: 11px;
+  width: 15%;
+  text-align: start;
+}
+
+.endFooterclass1 > span:hover {
+  cursor: pointer;
+}
+
+.Rightreservedtag {
+  color: white;
+  font-size: 11px;
+  width: 15%;
+  text-align: start;
+}
